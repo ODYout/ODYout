@@ -1,0 +1,27 @@
+# My first code line
+#Create a command line program to prompt the user to enter two numbers and display the sum of the two numbers.
+
+#Case 1
+a = int(input("Enter the first number : "))
+b = int(input("Enter the second number : "))
+sum = a + b
+print(f"The result of adding {a} with {b} is equal to {sum}.")
+
+
+#Case 2
+a = input("Enter the first number : ")
+b = input("Enter the second number : ")
+sum = int(a) + int(b)
+print(f"The result of adding {a} to {b} is {sum}.")
+
+
+#Case 3
+Q1 = input("""Do you want to calculate an addition between two numbers? 
+                (use Y to answer yes and N to answer no)""")
+if Q1 == "N": 
+    print("The program only deals with additions between two numbers")
+if Q1 == "Y": 
+    a = input("Enter the first number : ")
+    b = input("Enter the second number : ")
+    sum = int(a) + int(b)
+    print(f"The result of adding {a} with {b} is equal to {sum}.")
