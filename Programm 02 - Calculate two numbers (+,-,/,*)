@@ -1,0 +1,22 @@
+Q1 = input("""Que voulez faire ?
+            Une addition (a), Une soustraction(s), Une multiplication(m), Une division(d)""")
+if Q1 == "a":
+    a = input("Entrez le premier nombre : ")
+    b = input("Entrez le deuxième nombre : ")
+    sum = float(a) + float(b)
+    print(f"{a} + {b} = {sum}")
+if Q1 == "s":
+    a = input("Entrez le premier nombre : ")
+    b = input("Entrez le deuxième nombre : ")
+    dif = float(a) - float(b)
+    print(f"{a} - {b} = {dif}")
+if Q1 == "m":
+    a = input("Entrez le premier nombre : ")
+    b = input("Entrez le deuxième nombre : ")
+    mul = float(a) * float(b)
+    print(f"{a} * {b} = {mul}")
+if Q1 == "d":
+    a = input("Entrez le premier nombre : ")
+    b = input("Entrez le deuxième nombre (différent de 0) : ")
+    div = float(a) / float(b)
+    print(f"{a} / {b} = {div}")
